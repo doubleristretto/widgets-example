@@ -43,6 +43,10 @@ public class MainListActivity extends ListActivity {
                     case 1:
                         intent.setClass(view.getContext(), RadioGroupActivity.class);
                         startActivity(intent);
+                    case 2:
+                        intent.setClass(view.getContext(), DatePickerActivity.class);
+                        startActivity(intent);
+
                 }
 
 
