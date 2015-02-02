@@ -12,6 +12,7 @@
         <item>Button</item>
         <item>RadioGroup</item>
         <item>DatePicker</item>
+        <item>RadioGroup Activity Listener</item>
     </string-array>
 
 </resources>

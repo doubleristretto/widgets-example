@@ -21,7 +21,7 @@ public class MainListActivity extends ListActivity {
 
         // Create a new Adapter containing a list of colors
         // Set the adapter on this ListActivity's built-in ListView
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
+        setListAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 getResources().getStringArray(R.array.widget_items)));
 
         ListView lv = getListView();
@@ -46,7 +46,9 @@ public class MainListActivity extends ListActivity {
                     case 2:
                         intent.setClass(view.getContext(), DatePickerActivity.class);
                         startActivity(intent);
-
+                    case 3:
+                        intent.setClass(view.getContext(), RadioGroupActivityTwo.class);
+                        startActivity(intent);
                 }
 
 
