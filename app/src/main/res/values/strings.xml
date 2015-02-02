@@ -11,6 +11,7 @@
     <string-array name="widget_items">
         <item>Button</item>
         <item>RadioGroup</item>
+        <item>DatePicker</item>
     </string-array>
 
 </resources>
